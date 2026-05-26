@@ -5,10 +5,11 @@ export default defineConfig({
   title: "Claude Code 原理与源码拆解",
   description: "从源码视角完整拆解 Claude Code —— Anthropic 的终端 AI Agent",
   lang: "zh-CN",
+  base: "/how-claude-code-works/",
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ["link", { rel: "icon", href: "/logo.png", type: "image/png" }],
+    ["link", { rel: "icon", href: "/how-claude-code-works/logo.png", type: "image/png" }],
     ["meta", { name: "theme-color", content: "#d97706" }]
   ],
   markdown: {
@@ -134,7 +135,7 @@ export default defineConfig({
       next: "下一节"
     },
     editLink: {
-      pattern: "https://github.com/jwangkun/claude-code-rev/edit/main/docs/:path",
+      pattern: "https://github.com/jwangkun/how-claude-code-works/edit/main/docs/:path",
       text: "编辑此页"
     }
   }
