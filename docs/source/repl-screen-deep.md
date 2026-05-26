@@ -421,7 +421,7 @@ const [toolUseConfirmQueue, setToolUseConfirmQueue] = useState<ToolUseConfirm[]>
 ### 6.3 工具状态报告
 
 - `ProgressMessage`：工具执行中的进度更新（Bash 输出、文件写入）
-- `inProgressToolUseIDs`：Set<string> 跟踪当前正在执行的工具调用
+- `inProgressToolUseIDs`：`Set<string>` 跟踪当前正在执行的工具调用
 - `hasInterruptibleToolInProgressRef`：用于判断是否可以安全中断当前工具
 
 ## 7. 用户输入处理
