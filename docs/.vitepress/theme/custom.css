@@ -1,0 +1,46 @@
+:root {
+  --vp-c-brand-1: #d97706;
+  --vp-c-brand-2: #f59e0b;
+  --vp-c-brand-3: #92400e;
+}
+
+.mermaid-wrapper {
+  margin: 16px 0;
+  overflow-x: auto;
+}
+
+.mermaid-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.vp-doc .qr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.vp-doc .qr-grid figure {
+  margin: 0;
+  text-align: center;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc .qr-grid img {
+  width: min(100%, 220px);
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.vp-doc .qr-grid figcaption {
+  margin-top: 10px;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .sponsor-grid {
+  max-width: 520px;
+}

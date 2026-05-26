@@ -1,0 +1,16 @@
+{
+  "name": "how-claude-code-works",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "NO_PROXY=localhost,127.0.0.1,::1 vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "mermaid": "^11.6.0",
+    "vitepress": "^1.6.3"
+  }
+}
